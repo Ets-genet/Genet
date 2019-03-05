@@ -1,0 +1,39 @@
+header {
+  background-color: blue;
+}
+nav {
+  background-color: green;
+}
+main {
+  background-color: tan;
+}
+aside {
+  background-color: orange;
+}
+footer {
+  background-color: pink;
+}
+section {
+  background-color: antiquewhite;
+}
+p {
+  background-color: white;
+  margin: 20px;
+}
+header, nav, main, aside, footer {
+  overflow: hidden;
+}
+.container {
+  max-width: 900px;
+}
+
+
+nav, main, aside {
+  display: inline-block;
+}
+nav, aside {
+  width: 25%;
+}
+main {
+  width: 49%;
+}
